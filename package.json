@@ -1,0 +1,19 @@
+{
+  "name": "s3-concat-bundle-issue",
+  "version": "1.0.0",
+  "description": "This repository is reproduction that issue about s3-concat bundle",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Masahiko Murakami <fossamagna2@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.651.1",
+    "s3-concat": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "typescript": "^5.6.2"
+  }
+}
